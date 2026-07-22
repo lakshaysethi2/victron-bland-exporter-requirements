@@ -11,3 +11,4 @@
 10. the app must run constantly even if the screen is off, the app needs to guide user to help user make the app stay alive , keep cpu alive , aquire wakelock, use persistent notification if needed
 11. give user option to disable cloudflared and allow user to access the /metrics endpoint over local ip (wifi) and port  example http://192.168.1.70:5338/metrics where 192.168.1.70 is the wifi ip address of the android device when it is connected to wifi.
 12. easu to build - with docker compose , make build command must use docker compose to build and output the apk file
+13. the app must scan for nearby bluetooth victron devices , we support mppt for now , app must not ask user for device mac and 32 char key like the official victron app does not ask for these , requirement is for this to be very easy and convenient for user .
